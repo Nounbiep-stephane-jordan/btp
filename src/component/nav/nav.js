@@ -18,11 +18,10 @@ const Nav = () => {
           </Link>
           
           <div className="dropdown-content">
-            <Link to={"/callcenter"}>Call Center Service</Link>
-            <Link to={"/marketig"}>Marketing Service</Link>
-            <Link to={"/digital"}>Digitalization</Link>
-            <Link to={"/it"}>It Solution</Link>
-            <Link to={"/recruitment"}>Recruitment and Placement</Link>
+          <Link to={"/callcenter"}>Travaux Public</Link>
+            <Link to={"/marketig"}>Batimen</Link>
+            <Link to={"/digital"}>Matériel routier</Link>
+            <Link to={"/recruitment"}>Fondation</Link>
           </div>
         </div>
         <Link to={"/about"}>About</Link>
@@ -58,11 +57,12 @@ const Nav = () => {
                   <a href="#">Digitalization</a>
                   <a href="#">It Solution</a>
                   <a href="#">Recruitment and Placement</a> */}
-            <Link to={"/callcenter"}>Call Center Service</Link>
-            <Link to={"/marketig"}>Marketing Service</Link>
-            <Link to={"/digital"}>Digitalization</Link>
-            {/* <Link to={"/it"}>It Solution</Link> */}
-            <Link to={"/recruitment"}>Recruitment and Placement</Link>
+             
+         
+            <Link to={"/callcenter"}>Travaux Public</Link>
+            <Link to={"/marketig"}>Batimen</Link>
+            <Link to={"/digital"}>Matériel routier</Link>
+            <Link to={"/recruitment"}>Fondation</Link>
             <Link to={"/realisation"}>
             Realisation
           </Link>

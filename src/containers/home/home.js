@@ -8,9 +8,9 @@ import { motion } from "framer-motion";
 const Home = () => {
   const [showaccordion, setShowAccordion] = useState(false);
   const allbox = [
-  {head:"Travaux Public",text:"1er acteur indépendant en France",delay:1},
-  {text:"4e acteur du bâtiment en France ",head:"Batiment",delay:1.5},
-  {text:"Leader mondial du matériel routier.",head:"Road Equipment",delay:1.8},
+  {head:"Travaux Public",text:"1er acteur indépendant au cameroon",delay:1},
+  {text:"4e acteur du bâtiment en cameroon ",head:"Batiment",delay:1.5},
+  {text:"Leader mondial du matériel routier.",head:"Matériel routier",delay:1.8},
   {text:"Experts en fondations",head:"Fondation",delay:2}]
   return (
     <>
@@ -185,7 +185,7 @@ const Home = () => {
               <div className="text">
                 <span>plus de</span>
                 <h2>95%</h2>
-                <p>Des prestation realisee dans les delais</p>
+                <p>Des prestation réalisé dans les delais</p>
               </div>
             </div>
           </div>
@@ -194,7 +194,7 @@ const Home = () => {
           <img alt="blog" src={blog} />
         </div>
         <div className="right">
-          <h2>Tout savoir sur le standard téléphonique externalisé !</h2>
+          <h2>Tout savoir sur nos procedure d'execution !</h2>
           <p>
             Depuis les années 1990, les organisations choisissent de
             sous-traiter certaines fonctions périphériques de leur activité afin
@@ -215,63 +215,62 @@ const Home = () => {
         <div className="grid">
           <div className="left">
             <p className="para">
-              DIC ENGINEERING est un spécialiste de l’accueil externalisé sur mesure.
-              Experts en solutions complexes personnalisées, nous opérons en
-              24/7 et nous sommes basés en France.
+              DIC ENGINEERING est une entreprise spécialisé dans les travaux de <span>BTP</span> 
+              .Nous realison les etude ,la conception,la livraison final de tous vos projet,
+               nous somme basés au cameroon 
             </p>
             <p className="bold">
-              Les bases de nos prestations reposent sur quatre fondements
+              Les bases de nos prestations reposent sur trois fondamentaux
               solides
             </p>
 
             <ul>
               <li>
-                <span>Qualité :</span> label Qualiserve et Iso 18295-1 en cours
+                <span>Qualité :</span>  
               </li>
               <li>
-                <span>Sécurité :</span> infrastructure robuste et prestations
-                duo sites
+                <span>Sécurité :</span>  
               </li>
               <li>
-                <span>Technicité :</span> automatisme, I.A., interface avec vos
-                systèmes
+                <span>Technicité :</span> 
               </li>
             </ul>
 
             <button className="btn">Nos services</button>
           </div>
           <div className="right">
-            <div className="f_flex">
-              <motion.div 
+            {/* replace with image */}
+          {/* <div className="f_flex">
+            <motion.div 
+            initial={{ opacity: 0 }}
+            transition={{ duration: 1,ease:"easeInOut",delay:0.3 }}
+            whileInView={{ opacity: [0, 1],scale:[2,1]}}
+            className="img-i">
+              <i className="fa-solid fa-users"></i>
+            </motion.div>
+            <p>L'esprit de service</p>
+          </div>
+          <div className="f_flex">
+            <motion.div 
               initial={{ opacity: 0 }}
-              transition={{ duration: 1,ease:"easeInOut",delay:0.3 }}
+              transition={{ duration: 1,delay:1,ease:"easeInOut" }}
               whileInView={{ opacity: [0, 1],scale:[2,1]}}
-              className="img-i">
-                <i className="fa-solid fa-users"></i>
-              </motion.div>
-              <p>L'esprit de service</p>
-            </div>
-            <div className="f_flex">
-              <motion.div 
-               initial={{ opacity: 0 }}
-               transition={{ duration: 1,delay:1,ease:"easeInOut" }}
-               whileInView={{ opacity: [0, 1],scale:[2,1]}}
-              className="img-i">
-                <i className="fa-solid fa-smile"></i>
-              </motion.div>
-              <p>L'esprit de service</p>
-            </div>
-            <div className="f_flex">
-              <motion.div 
-              initial={{ opacity: 0 }}
-               transition={{ duration: 1,delay:1.6 ,ease:"easeInOut"}}
-               whileInView={{ opacity: [0, 1],scale:[2,1]}}
-              
-              className="img-i">
-                <i className="fa-solid fa-laptop"></i>
-              </motion.div>
-              <p>L'esprit de service</p>
-            </div>
+            className="img-i">
+              <i className="fa-solid fa-smile"></i>
+            </motion.div>
+            <p>L'esprit de service</p>
+          </div>
+          <div className="f_flex">
+            <motion.div 
+            initial={{ opacity: 0 }}
+              transition={{ duration: 1,delay:1.6 ,ease:"easeInOut"}}
+              whileInView={{ opacity: [0, 1],scale:[2,1]}}
+            
+            className="img-i">
+              <i className="fa-solid fa-laptop"></i>
+            </motion.div>
+            <p>L'esprit de service</p>
+          </div> */}
           </div>
         </div>
         <motion.div
@@ -284,8 +283,7 @@ const Home = () => {
           </h2>
           <p className="last">
             DIC ENGINEERING appuie son développement sur une collaboration étroite avec
-            des experts des sujets stratégiques pour son activité (téléphonie,
-            automatisme et sécurité informatique, RSE).
+            sa clientele, pour mieux comprendre le besoin et assurait un rendu satisfesant
           </p>
         </motion.div>
       </section>
@@ -296,6 +294,7 @@ const Home = () => {
             Activiter
           </h2>
         <div className="all-box-activity">
+          {/* change the background image */}
           {allbox.map((box,index)=>
             <motion.div
             initial={{ y: 100, opacity: 0 }}

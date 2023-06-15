@@ -9,7 +9,8 @@ const Footer = () => {
           <div className="img-box">
             <img alt="" src={logo} />
           </div>
-          <h4>Spécialiste de l’accueil externalisé sur mesure</h4>
+          <h4> DIC ENGINEERING, spécialiste de tout vos ouvrage en 
+            <span>BTP</span></h4>
           <p className="">
             <i className="fa-solid fa-envelope"></i> contact@ENGINEERING.fr
           </p>
@@ -27,11 +28,11 @@ const Footer = () => {
         </div>
         <div className="links box">
           <h4>Services</h4>
-          <p>Call Center Service</p>
-          <p>Marketing Service</p>
-          <p>Digitalization</p>
-          <p>It Solution</p>
-          <p>Recruitment and Placement</p>
+          <p>Travaux Public</p>
+          <p>Batiment</p>
+          <p>Matériel routier</p>
+          <p>Fondation</p>
+          
         </div>
       </div>
     </footer>
