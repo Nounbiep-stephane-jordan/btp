@@ -7,7 +7,7 @@ const Services = () => {
   return (
     <section className="services">
       <h1>
-        company Specialty Services <span>Emerix</span> ?
+        company Specialty Services <span>DIC ENGINEERING</span> ?
       </h1>
 
       <div className="row grid">
@@ -57,7 +57,7 @@ const Services = () => {
             Personalized Service And <span>Industry Expertise</span>
           </h2>
           <p>
-            As a leading provider of specialty services in the area, Emerix
+            As a leading provider of specialty services in the area, DIC ENGINEERING
             Outsourcing begins the process with a thorough analysis to determine
             how your company can benefit from our list of services. We will then
             develop the most cost-effective service plan that includes the most
@@ -65,7 +65,7 @@ const Services = () => {
           </p>
           <p>
             We use the latest technologies and make the safety and success of
-            your company our number one priority. Emerix Outsourcing takes great
+            your company our number one priority. DIC ENGINEERING Outsourcing takes great
             pride in completing each project on-time and within budget, and
             always in a professional manner. Our agents have received extensive
             training to ensure your complete satisfaction.

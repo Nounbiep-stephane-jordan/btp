@@ -26,7 +26,7 @@ const Home = () => {
           // transition={{ duration: 1.2 }}
           whileInView={{ opacity: [0, 1],y:[50,0]}}
           >
-            Emerix, spécialiste de l’accueil externalisé{" "}
+            DIC ENGINEERING, spécialiste de l’accueil externalisé{" "}
             <span>sur mesure</span>
           </motion.h2>
           <motion.h3
@@ -54,7 +54,7 @@ const Home = () => {
           // transition={{ duration: 1.2 }}
           whileInView={{ opacity: [0, 1],y:[50,0]}}
           >
-            Emerix, spécialiste de l’accueil externalisé{" "}
+            DIC ENGINEERING, spécialiste de l’accueil externalisé{" "}
             <span>sur mesure</span>
           </motion.h2>
           <motion.h3
@@ -95,10 +95,10 @@ const Home = () => {
             transition={{ duration: 1.2,delay:2 }}
             whileInView={{ opacity: [0, 1],x:[-200,0]}}
             >
-              Les métiers de <span>Emerix</span>
+              Les métiers de <span>DIC ENGINEERING</span>
             </motion.h3>
             <p>
-              Emerix réalise cinq types de prestation, chacune tournée vers
+              DIC ENGINEERING réalise cinq types de prestation, chacune tournée vers
               l’accueil ou l’assistance de vos clients.
             </p>
             <button className="btn ">Nos Services</button>
@@ -136,10 +136,10 @@ const Home = () => {
         </div>
 
         <h3>
-          Emerix, <span>en chiffres</span>
+          DIC ENGINEERING, <span>en chiffres</span>
         </h3>
         <p>
-          Emerix c’est une infrastructure I.T. puissante au service de millions
+          DIC ENGINEERING c’est une infrastructure I.T. puissante au service de millions
           de contacts clients.
         </p>
       </section>
@@ -212,12 +212,12 @@ const Home = () => {
 
       <section className="white-section  row">
         <h2>
-          Les arguments de <span>Emerix</span>
+          Les arguments de <span>DIC ENGINEERING</span>
         </h2>
         <div className="grid">
           <div className="left">
             <p className="para">
-              Emerix est un spécialiste de l’accueil externalisé sur mesure.
+              DIC ENGINEERING est un spécialiste de l’accueil externalisé sur mesure.
               Experts en solutions complexes personnalisées, nous opérons en
               24/7 et nous sommes basés en France.
             </p>
@@ -285,7 +285,7 @@ const Home = () => {
             Ils nous font <span>avancer</span>
           </h2>
           <p className="last">
-            Emerix appuie son développement sur une collaboration étroite avec
+            DIC ENGINEERING appuie son développement sur une collaboration étroite avec
             des experts des sujets stratégiques pour son activité (téléphonie,
             automatisme et sécurité informatique, RSE).
           </p>

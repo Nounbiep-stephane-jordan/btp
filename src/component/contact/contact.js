@@ -9,18 +9,18 @@ const Contact = () => {
         </h2>
         {/*  <p>
           <i className="fa-solid fa-location-arrow"></i>{" "}
-          <span className="span">Emerix</span> -7,rue Pierre et Marie
+          <span className="span">DIC ENGINEERING</span> -7,rue Pierre et Marie
           Curie,22400 Lamballe
         </p>
         <p>
           <i className="fa-solid fa-location-arrow"></i>{" "}
-          <span className="span">Emerix</span> -84 voie du Toec, 31300 Toulouse
+          <span className="span">DIC ENGINEERING</span> -84 voie du Toec, 31300 Toulouse
         </p>
         <p>
-          <i className="fa-solid fa-envelope"></i> contact@emerixcompagnie.fr
+          <i className="fa-solid fa-envelope"></i> contact@DIC ENGINEERINGcompagnie.fr
         </p>
         <p>
-          <i className="fa-solid fa-envelope"></i> support@emerixcompagnie.fr
+          <i className="fa-solid fa-envelope"></i> support@DIC ENGINEERINGcompagnie.fr
         </p>
         <h4>Planifier un rendez-vous téléphonique </h4> */}
         <button className="btn">
@@ -49,7 +49,7 @@ const Contact = () => {
           </div>
           <input type="text" placeholder="Message" />
           <p>
-            <input type="checkbox" name="" id="" /> Emerix s'engage à protéger
+            <input type="checkbox" name="" id="" /> DIC ENGINEERING s'engage à protéger
             et à respecter votre vie privée. Nous n'utiliserons vos données
             personnelles que pour administrer votre compte et vous fournir les
             produits et services demandés. Nous aimerions vous contacter

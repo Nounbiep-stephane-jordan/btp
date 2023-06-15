@@ -12,7 +12,7 @@ const About = () => {
     <>
       <section className="about">
         <h1>
-          À propos de <span>Emerix</span>
+          À propos de <span>DIC ENGINEERING</span>
         </h1>
         <div className="row grid">
           <div className="left">
@@ -20,7 +20,7 @@ const About = () => {
               Depuis <span>quand ?</span>
             </h2>
             <p>
-              Emerix est née fin 2017 du rapprochement de deux centres de
+              DIC ENGINEERING est née fin 2017 du rapprochement de deux centres de
               contacts (Adexium et Contactel) qui ont suivi une évolution très
               comparable depuis leur création, au tout début des années 80.
             </p>

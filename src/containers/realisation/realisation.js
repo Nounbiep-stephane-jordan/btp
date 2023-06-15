@@ -21,7 +21,7 @@ const Realisation = () => {
       // transition={{ duration: 1.2 }}
       whileInView={{ opacity: [0, 1],y:[50,0]}}
       >
-        Emerix, spécialiste de l’accueil externalisé{" "}
+        DIC ENGINEERING, spécialiste de l’accueil externalisé{" "}
         <span>sur mesure</span>
       </motion.h2>
     </div>
