@@ -1,0 +1,61 @@
+.services ul span ,.services span{
+    color: #FF8150;
+    font-weight: 600;
+}
+
+.services h1{
+    font-size: 2rem;
+    margin: 2rem 0 2rem 4rem;
+    text-align: left;
+    text-transform: capitalize;
+}
+
+.services h2{
+    margin: 2rem 0;
+    width: auto;
+    text-transform: capitalize;
+}
+
+.services p{
+    font-weight: 600;
+}
+
+.services img {
+    border-radius: 70px 0 70px 0;
+}
+
+.services .row{
+    margin: 2rem 0;
+}
+
+.services .left{
+    margin-left: 4rem;
+}
+
+.services .row .right p{
+    margin: 0;
+}
+
+.services .row .right h2{
+    margin: 0 0 2rem;
+}
+
+.services button{
+    border-radius: 50px;
+    background-color: #122A66;
+}
+
+/* .services .right{
+    margin-right:4rem;
+} */
+
+@media screen and (max-width:800px){
+    .services .left{
+        margin: 0;
+    }
+
+    .services h1{
+        margin: 0;
+        font-size: 1.5rem;
+    }
+}

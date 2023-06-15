@@ -1,0 +1,50 @@
+
+
+.bg-head-2{
+    background-image: url("../../assets/images/truc2.jpg");
+    width:100%;
+    height: 300px;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+  }
+  
+  .bg-head-2 h2,h3{
+    color: white !important;
+  }
+  
+  .bg-head-2 .left {
+    align-items: flex-start;
+    justify-content: flex-start;
+  
+  }
+  
+
+
+
+.realisation-row *{
+    transition: all ease 1.5s;
+}
+
+.realisation-row{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto;
+    padding: 50px;
+}
+
+  .realisation-card {
+  width:350px;
+    margin: 20px;
+    border-radius: 5px;
+  }
+
+  .realisation-card:hover{
+    transform: scale(1.2);
+  }
+
+  .realisation-card img{
+    width:100%;
+    height:auto;
+  }

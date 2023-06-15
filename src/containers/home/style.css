@@ -1,0 +1,506 @@
+
+
+.bg-head{
+  background-image: url("../../assets/images/truc1.jpg");
+  width:100%;
+  height: 400px;
+  /* background-position: right; */
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+
+.bg-head h2,h3{
+  color: black !important;
+}
+
+.bg-head .left {
+  align-items: flex-start;
+  justify-content: flex-start;
+
+}
+
+.banner .right img{
+  border-radius: 100px 0 100px 0;
+}
+
+ .banner .left h3 ,.banner .left .btn-box,.banner .left{
+    align-self: flex-start;
+  }
+ 
+  .banner .left {
+    margin-top: 2.5rem;
+    margin-left: 4rem;
+  }
+ 
+  .banner h2 {
+    color: #122A66;
+    font-weight: bolder;
+    font-size: 2.5rem;
+    width: 565px;
+    line-height: 1;
+    text-align: left;
+ 
+  }
+ 
+  .banner h3{
+    color: #122A66;
+    font-weight: 400;
+    font-size: 2rem;
+  }
+ 
+  .banner span ,section span{
+    color: #FF8150;
+  }
+ 
+  .banner .btn-box button:first-child{
+    background-color: #4A61FF;
+    color: white;
+    margin-right: 2rem;
+  }
+ 
+  .banner .btn-box button:nth-child(2){
+    color: #4A61FF;
+    border-color: #EFF1F4;
+    background-color: #F6F8FB;
+    border-style: solid;
+    border-width: 2px 2px 2px 2px;
+  }
+ 
+  section button:hover{
+    transform: scale(1.2);
+  }
+
+  
+ .white-section h3{
+    color: #122A66;
+    text-align: center;
+    font-size: 2rem;
+    line-height: 1;
+   }
+  
+  
+  
+   .white-section .white-container{
+    margin:2rem 4rem;
+   }
+
+
+  
+   .white-left h3{
+    width: 190px;
+    align-self: flex-start;
+    text-align: left;
+  
+   }
+  
+   .white-left button {
+    background-color: #4A61FF;
+    color: white;
+    align-self: flex-start;
+   }
+  
+   .white-left p{
+    line-height: 1.5;
+    margin: 1.5rem 0;
+    color: #122A66;
+    padding-right:20px ;
+   }
+  
+  .accordion .icon {
+  color: #FF8150;
+  }
+  
+  .accordion{
+    border-bottom: 1px solid #d4d4d4;
+  }
+  
+  .accordion p{
+    color: #122A66;
+    /* padding: 15px; */
+    font-weight: 700;
+  }
+  
+  .accordion-content p{
+    color: #122A66;
+    line-height: 1.5;
+    margin: 1.5rem 0;
+  }
+  
+  .accordion-content a{
+    color: #FF8150;
+  }
+  
+  
+  .white-section{
+    cursor: pointer;
+    background-color: white;
+  }
+
+  .white-container{
+    grid-template-columns: 550px 550px;
+    gap:0 50px;
+  }
+  
+  .white-section h3:nth-child(3){
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+  }
+  
+  .white-section p:last-child{
+    text-align: center;
+  }
+  
+  .white-left {
+    align-items: flex-start;
+  }
+  
+
+  
+.blue-section{
+    background-color: #122A66;
+    height: 700px;
+    display: flex;
+    position: relative;
+  }
+  
+  .blue-section .box-row{
+    top: -39px;
+    position: absolute;
+  
+  }
+  
+  .blue-section .box{
+    padding: 1.5rem;
+    background-color: #F6F8FB;
+    border-bottom-right-radius: 70px;
+    width: 280px;
+    height: 200px;
+    margin:0 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    z-index:1;
+    position: relative;
+  
+  }
+  
+  .blue-section .box{
+    text-align: center;
+    margin-top: 2rem;
+  }
+  
+  .blue-section .box span{
+    color: #4054B2;
+    text-transform: capitalize;
+    font-size: 20px;
+  }
+  
+  
+  .blue-section .box h2{
+    color: #122A66;
+    font-size: 2rem;
+    text-align: center;
+  }
+  
+  .blue-section .box .icon-box{
+    padding: 20px;
+    height: 60px;
+    width: 60px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    border-radius: 20px 0;
+    position: absolute;
+    top: -36px;
+  }
+
+  .blue-section .box .text {
+    text-align: center ;
+  }
+  
+  .box .icon-box i{
+    color: white;
+    font-size:25px;
+  }
+  
+  .box .blue{
+    background-color: #4054B2;
+  }
+  
+  .box .yellow{
+    background-color: #FFB24D;
+  }
+  
+  .box .orange{
+    background-color: #FF8150;
+  }
+  
+  .box .light{
+    background-color: #4A61FF;
+  }
+  
+  .blue-section .right,.blue-section .left{
+    width: 750px;
+    margin: 2rem;
+    transform: translateY(220px);
+  }
+   
+  .blue-section img{
+  border-radius: 100px 0 100px 0;
+  }
+
+  .blue-section .right p,.blue-section .right h2{
+    color: white;
+    line-height: 1.5;
+  }
+  
+  .blue-section .right h2{
+    font-size: 2rem;
+    width: 500px;
+    line-height: 1;
+    text-align: left;
+  }
+  .blue-section .right p{
+    margin: 1.5rem 0;
+  }
+  
+  .blue-section button{
+    background-color: #4A61FF;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .row h2{
+    font-size: 2rem;
+      line-height: 1;
+      width: 240px;
+      text-align: left;
+      margin-left: 4rem;
+  }
+  
+  .row p{
+    line-height: 1.5;
+  }
+  
+  .row ul {
+    margin-top: 1rem;
+  }
+  
+  ::marker{
+    color: #FF8150;
+  }
+  
+  .row ul li {
+  color: #122A66;
+  line-height: 1.5;
+  }
+  
+  .row ul span{
+    color: #122A66;
+    font-weight: bold;
+  }
+  
+  
+  .row .left .para{
+    margin: 1rem 0;
+  }
+  
+  .row  .left .bold{
+    color: #122A66;
+    font-weight: bold;
+  }
+  
+  .row .right .img-i{
+  height: 50px;
+  width: 50px;
+  background-color:#FF815026 ;
+  display: flex;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  }
+  
+  .row .right .img-i i{
+    font-size: 20px;
+    color: #FF8150;
+  }
+  
+  
+  .row .left,.contact-section .left{
+    width: 500px;
+    margin: 0rem 0 2rem 4rem;
+  }
+  
+  .row .right, .contact-section .right{
+    width: 500px;
+    width: 2rem 4rem 2rem 0;
+  }
+  
+  .row .right p{
+    margin:0 2rem;
+    font-weight: 600;
+  }
+  
+  .row .right div{
+    border-bottom: 1px solid #EFF1F4;
+    padding: 1rem 0;
+  }
+  
+  
+  .row button{
+    background-color: #4A61FF;
+    color: white;
+    align-items: flex-start;
+    margin: 1rem 0;
+  }
+  
+  .row .center{
+    text-align: center;
+    width: auto;
+    margin: 2rem 0;
+  }
+  
+  .row .last{
+    text-align: center;
+    width: 800px;
+    line-height: 1.5;
+    margin: auto;
+  }
+  
+  
+  .contact-section .left .span{
+    color: #122A66;
+    font-weight: bold;
+  }
+  
+  .contact-section .left button{
+    color: #4A61FF;
+    border-color: #EFF1F4;
+    background-color: transparent;
+    border-style: solid;
+    border-width: 2px 2px 2px 2px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .contact-section button{
+    background-color: #4A61FF;
+    color: white;
+  }
+  
+  .contact-section .circle{
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    padding: 10px;
+    background-color: #FF815026;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+   
+
+.contact-section .circle i{
+  margin: 0;
+}
+  
+  .contact-section input{
+    width: fit-content;
+    border-style: solid;
+    border-width: 1px 1px 1px 1px;
+    border-color: #EFF1F4;
+    padding: 5px 10px;
+    margin: 1rem 0;
+    background-color: white;
+    color: #373a3c;
+    width: 100%;
+    max-width: 100%;
+  }
+  
+  .contact-section .right .s_flex input:first-child{
+    margin-right: 1rem;
+  }
+  
+  .contact-section form button{
+    width: 100%;
+    margin: 1rem 0;
+  }
+  
+
+  .contact-section i{
+    font-size: 20px;
+    margin-right: 1rem;
+    color: #FF8150;
+  }
+
+  .contact-section .btn i{
+    color: #4A61FF;
+  }
+
+.all-activity-section{
+  position: relative;
+}
+
+  .all-activity{
+  background-image: url("../../assets/images/truc2.jpg");
+  width:100%;
+  filter: blur(8px);
+  height: 800px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+   margin:50px 0;
+   padding:30px;
+  }
+
+  .all-activity-section h2{
+  text-align: center;
+  position: absolute;
+  color: #FF8150;
+  left:40rem;
+  top:5rem;
+  }
+
+  @media screen and (max-width:800px) {
+
+    .all-activity-section h2{
+      left: auto;
+    }
+    .all-box-activity{
+      flex-direction: column;
+      left: auto;
+    }
+  }
+  
+
+  .all-box-activity{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    position: absolute;
+    left:15rem;
+    top:10rem;
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+  }
+  .all-box-activity div h3{
+    color:#FF8150;
+  }
+  .all-box-activity div p{
+    color: white;
+  }
+
+  .all-box-activity div{
+    width: 200px;
+    border-radius:10px;
+    padding:20px;
+    text-align:center;
+    height: 200px;
+    background: rgba(0, 0, 0, 0.24);
+    margin:20px;
+  }

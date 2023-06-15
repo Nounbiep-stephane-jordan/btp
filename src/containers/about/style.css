@@ -1,0 +1,86 @@
+.about h1{
+    font-size: 2rem;
+    margin-left: 4rem;
+}
+
+.about img {
+ border-radius: 70px 0px 70px 0;
+}
+
+.about h2{
+    margin: 2rem 0;
+    text-align: left;
+}
+
+.about p{
+margin: 1rem 0;
+}
+
+.about button:nth-child(2){
+    color: #4A61FF;
+    border-color: #EFF1F4;
+    background-color: transparent;
+    border-style: solid;
+    border-width: 2px 2px 2px 2px;
+    margin: 0 2rem;
+}
+
+.about button:hover{
+    transform: scale(1.2);
+}
+
+.blue-section h1{
+    font-size: 2rem;
+    color: #FF8150;
+    width: auto;
+    margin-left: 4rem;
+}
+
+.blue-about{
+    flex-direction: column;
+    height: auto;
+    padding: 60px 40px;
+}
+
+.blue-about .grid{
+    margin-left: 4rem;
+    margin-right: 4rem;
+}
+
+.blue-about .grid {
+    gap:0 2rem;
+}
+
+.white,.w-white{
+    background-color: white;
+}
+
+.white h2{
+    font-size: 2rem;
+}
+
+.blue-about *{
+    color: white;
+}
+
+.white .grid{
+    align-items: center;
+    justify-content: center;
+    gap:0 3rem;
+}
+
+.white .left{
+    margin-left: 4rem;
+}
+
+.white .right{
+    margin-right: 4rem;
+}
+
+.orange{
+    background-color: #FF8150;
+}
+
+.orange h1,.orange h2{
+    color: white;
+}

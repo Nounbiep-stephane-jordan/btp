@@ -1,0 +1,168 @@
+  
+  footer{
+    background-color: white;
+  }
+  
+  footer h4{
+    color: #122A66;
+    line-height: 1.5;
+  }
+  
+  footer a{
+    color:#FF8150;
+    font-weight: 600;
+  }
+  
+  footer .links{
+    flex-direction: column;
+  }
+  
+  footer .box{
+    width: 200px;
+    padding: 10px;
+    align-items: flex-start;
+  }
+  
+  footer p{
+    justify-content: flex-start;
+  }
+  
+  footer .img-box{
+    width: 100px;
+  }
+  
+  .footer-row{
+    display: grid;
+    grid-template-columns: auto auto auto;
+  justify-content: space-between;
+  margin:2rem 4rem ;
+  border-style: solid;
+  border-width: 1px 0px 0px 0px;
+  border-color: #EFF1F4;
+  padding: 20px 0;
+  
+  }
+  
+
+  footer i{
+    color: #FF8150;
+    margin-right: 0.5rem;
+    font-size: 20px;
+  }
+  
+   @media screen and (max-width:800px) {
+     .grid{
+        grid-template-columns: auto;
+        grid-template-rows: auto auto;
+        gap: 2rem 0;
+     }
+  
+     .banner .left{
+      margin-left: 0;
+      margin-top: 0;
+     }
+  
+     .banner h2{
+      font-size: 2rem;
+      text-align: left;
+      width: auto;
+     }
+  
+     .banner h3{
+      font-size: 1.5rem;
+     }
+  
+     .white-section p{
+      line-height: 1.5;
+     }
+
+     .white-section .white-container{
+      grid-template-columns: auto;
+      grid-template-rows: auto auto;
+     }
+  
+     .blue-section .box-row{
+      flex-direction: column;
+      position: static;
+      top: 0;
+      align-items: center;
+      justify-content: center;
+     }
+  
+     .blue-section .box{
+      margin:1rem 0;
+     }
+  
+     .blue-section{
+      flex-direction: column;
+      height: auto;
+     }
+  
+     .blue-section .right,.blue-section .left{
+      width: auto;
+      margin:1rem 0;
+      transform: translateY(0px);
+    }
+  
+    .blue-section .right h2{
+      font-size: 1.5rem;
+      width: auto;
+    }
+  
+  
+    .row .left{
+      margin: 0;
+    }
+  
+    .row .last {
+      width: auto;
+    }
+  
+  
+    .contact-section .left{
+      margin: 0;
+    }
+  
+    .row .right,.row .left, .contact-section .right,.contact-section .left{
+      width: auto;
+    }
+  
+    .footer-row{
+      grid-template-columns: auto;
+      grid-template-rows: auto auto auto;
+    }
+   }
+  
+   @media screen and (max-width:500px) {
+    .banner h2{
+      font-size: 1.5rem;
+    }
+  
+    .banner h3{
+      font-size: 1rem;
+    }
+  
+    .banner button{
+      width: 200px;
+      margin: 1rem 0;
+    }
+  
+    .white-left h3{
+      width: auto;
+      font-size: 1.5rem;
+    }
+  
+    .white-section h3{
+      width: auto;
+      font-size: 1.5rem;
+    }
+  
+    .white-left p{
+      padding: 0;
+    }
+  
+    .white-section .white-container{
+      margin-left:0;
+      margin-right:0;
+    }
+   }
