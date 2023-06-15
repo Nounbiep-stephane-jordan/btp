@@ -26,8 +26,8 @@ const Home = () => {
           // transition={{ duration: 1.2 }}
           whileInView={{ opacity: [0, 1],y:[50,0]}}
           >
-            DIC ENGINEERING, spécialiste de tous vos ouvrage en BTP
-            <span>sur mesure</span>
+            DIC ENGINEERING, spécialiste de tout vos ouvrage en 
+            <span>BTP</span>
           </motion.h2>
           <motion.h3
           initial={{ opacity: 0, y:30 }}
@@ -100,7 +100,7 @@ const Home = () => {
             </motion.h3>
             <p>
               DIC ENGINEERING réalise un bon nombre de prestation, dans les domaine 
-              de l'engineery du batiment et des travaux public.
+              de l'ingénierie du batiment et des travaux public.
             </p>
             <button className="btn ">Nos Services</button>
           </div>
@@ -123,9 +123,8 @@ const Home = () => {
                 className="accordion-content"
               >
                 <p>
-                  Nous vous accompanion dans tous vos projet de l'etude a 
-                  la conception ainse que la realisation en metant un ancent sur le
-                  respect des delai
+                  Nous vous accompanion dans tous vos projet , de l'etude a 
+                  la conception ainsi que la realisation en tenant compte des delais
                 </p>
                 <a href="">En savoir +</a>
               </motion.div>
@@ -139,7 +138,7 @@ const Home = () => {
           DIC ENGINEERING, <span>en chiffres</span>
         </h3>
         <p>
-          DIC ENGINEERING c’est une infrastructure d'engenirie au service de sa clientele
+          DIC ENGINEERING c’est une infrastructure d'ingénierie au service de sa clientele
         </p>
       </section>
       <section className="blue-section ">
@@ -165,7 +164,7 @@ const Home = () => {
             <div className="text">
               <span>plus de</span>
               <h2>67</h2>
-              <p>project realises</p>
+              <p>projet réalisé</p>
             </div>
           </div>
           <div className="box">
@@ -175,7 +174,7 @@ const Home = () => {
             <div className="text">
               <span>plus de</span>
               <h2>120</h2>
-              <p>Etude effectuee</p>
+              <p>Etude effectuée</p>
             </div>
           </div>
           <div className="box">
@@ -185,8 +184,8 @@ const Home = () => {
             <div className="text">
               <div className="text">
                 <span>plus de</span>
-                <h2>99,9%</h2>
-                <p>De disponibilité de nos systèmes</p>
+                <h2>95%</h2>
+                <p>Des prestation realisee dans les delais</p>
               </div>
             </div>
           </div>
