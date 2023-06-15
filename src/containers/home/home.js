@@ -2,6 +2,7 @@ import React, { useState } from "react";
 
 import "./style.css";
 import homeImg from "../../assets/images/truc1.jpg";
+import image5 from "../../assets/images/image5.jpg";
 import blog from "../../assets/images/helmet.jpg";
 import Contact from "../../component/contact/contact";
 import { motion } from "framer-motion";
@@ -239,7 +240,8 @@ const Home = () => {
             <button className="btn">Nos services</button>
           </div>
           <div className="right">
-            {/* replace with image */}
+            <img alt="" src={image5} />
+           
           {/* <div className="f_flex">
             <motion.div 
             initial={{ opacity: 0 }}
@@ -283,7 +285,7 @@ const Home = () => {
           </h2>
           <p className="last">
             DIC ENGINEERING appuie son développement sur une collaboration étroite avec
-            sa clientele, pour mieux comprendre le besoin et assurait un rendu satisfesant
+            sa clientele, pour mieux comprendre le besoin et assuré un rendu satisfesant
           </p>
         </motion.div>
       </section>

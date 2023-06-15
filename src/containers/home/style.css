@@ -143,7 +143,9 @@
     align-items: flex-start;
   }
   
-
+.white-section .right img {
+border-radius: 100px 0 100px;
+}
   
 .blue-section{
     background-color: #122A66;
@@ -433,9 +435,9 @@
 }
 
   .all-activity{
-  background-image: url("../../assets/images/truc2.jpg");
+  background-image: url("../../assets/images/image3.jpg");
   width:100%;
-  filter: blur(8px);
+  /* filter: blur(8px); */
   height: 800px;
   background-position: center;
   background-repeat: no-repeat;
