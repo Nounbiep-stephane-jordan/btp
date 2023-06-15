@@ -1,18 +1,6 @@
 
 
-.bg-head{
-  background-image: url("../../assets/images/truc1.jpg");
-  width:100%;
-  height: 400px;
-  /* background-position: right; */
-  background-repeat: no-repeat;
-  background-size: cover;
-  text-align: center;
-}
-
-.bg-head h2,h3{
-  color: black !important;
-}
+ 
 
 .bg-head .left {
   align-items: flex-start;
@@ -472,7 +460,7 @@
     }
     .all-box-activity{
       flex-direction: column;
-      left: auto;
+      left: auto !important;
     }
   }
   
@@ -503,4 +491,19 @@
     height: 200px;
     background: rgba(0, 0, 0, 0.24);
     margin:20px;
+  }
+
+
+  .bg-head{
+    background-image: url("../../assets/images/truc1.jpg");
+    width:100%;
+    height: 400px;
+    /* background-position: right; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+  }
+  
+  .bg-head h2,h3{
+    color: black ;
   }
