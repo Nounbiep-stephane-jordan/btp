@@ -61,7 +61,7 @@ const Nav = () => {
             <Link to={"/callcenter"}>Call Center Service</Link>
             <Link to={"/marketig"}>Marketing Service</Link>
             <Link to={"/digital"}>Digitalization</Link>
-            <Link to={"/it"}>It Solution</Link>
+            {/* <Link to={"/it"}>It Solution</Link> */}
             <Link to={"/recruitment"}>Recruitment and Placement</Link>
             <Link to={"/realisation"}>
             Realisation
