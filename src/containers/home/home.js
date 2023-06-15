@@ -26,7 +26,7 @@ const Home = () => {
           // transition={{ duration: 1.2 }}
           whileInView={{ opacity: [0, 1],y:[50,0]}}
           >
-            DIC ENGINEERING, spécialiste de l’accueil externalisé{" "}
+            DIC ENGINEERING, spécialiste de tous vos ouvrage en BTP
             <span>sur mesure</span>
           </motion.h2>
           <motion.h3
@@ -35,11 +35,12 @@ const Home = () => {
           whileInView={{ opacity: [0, 1],y:[30,0]}}
           >Opérationnel 24/7</motion.h3>
           <div className="btn-box ">
-            <motion.button 
+            {/* <motion.button 
             initial={{ opacity: 0, x:-30 }}
             transition={{ duration: 1,delay:0.5 }}
             whileInView={{ opacity: [0, 1],x:[-30,0]}}
-            className="btn">Demander un devis</motion.button>
+            className="btn">Demander un devis</motion.button> */}
+            {/* rredirect to contact */}
             <motion.button
              initial={{ opacity: 0, x:-30 }}
              transition={{ duration: 1,delay:0.5}}
@@ -98,8 +99,8 @@ const Home = () => {
               Les métiers de <span>DIC ENGINEERING</span>
             </motion.h3>
             <p>
-              DIC ENGINEERING réalise cinq types de prestation, chacune tournée vers
-              l’accueil ou l’assistance de vos clients.
+              DIC ENGINEERING réalise un bon nombre de prestation, dans les domaine 
+              de l'engineery du batiment et des travaux public.
             </p>
             <button className="btn ">Nos Services</button>
           </div>
@@ -122,12 +123,11 @@ const Home = () => {
                 className="accordion-content"
               >
                 <p>
-                  Nous gérons en 24/7 les contacts de vos clients (appels,
-                  mails, sms, alarmes, …) et mandatons vos intervenants. Nous
-                  pouvons incrémenter vos systèmes de suivi par interface ou
-                  lien RPA*
+                  Nous vous accompanion dans tous vos projet de l'etude a 
+                  la conception ainse que la realisation en metant un ancent sur le
+                  respect des delai
                 </p>
-                <a>En savoir +</a>
+                <a href="">En savoir +</a>
               </motion.div>
             ) : (
               ""
@@ -139,8 +139,7 @@ const Home = () => {
           DIC ENGINEERING, <span>en chiffres</span>
         </h3>
         <p>
-          DIC ENGINEERING c’est une infrastructure I.T. puissante au service de millions
-          de contacts clients.
+          DIC ENGINEERING c’est une infrastructure d'engenirie au service de sa clientele
         </p>
       </section>
       <section className="blue-section ">
@@ -155,7 +154,7 @@ const Home = () => {
             </div>
             <div className="text">
               <span>plus de</span>
-              <h2>600</h2>
+              <h2>300</h2>
               <p>Client nous font confiance</p>
             </div>
           </div>
@@ -165,8 +164,8 @@ const Home = () => {
             </div>
             <div className="text">
               <span>plus de</span>
-              <h2>20 tera octets</h2>
-              <p>Gérés par nos outils</p>
+              <h2>67</h2>
+              <p>project realises</p>
             </div>
           </div>
           <div className="box">
@@ -175,8 +174,8 @@ const Home = () => {
             </div>
             <div className="text">
               <span>plus de</span>
-              <h2>1.5 million</h2>
-              <p>De contacts traités par an</p>
+              <h2>120</h2>
+              <p>Etude effectuee</p>
             </div>
           </div>
           <div className="box">
