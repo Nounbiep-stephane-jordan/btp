@@ -26,9 +26,18 @@ const Nav = () => {
         </div>
         <NavLink to={"/about"}>A propos</NavLink>
         <NavLink to={"/contact"}>Contact</NavLink>
-        <NavLink to={"/realisation"}>
+  
+          <div className="dropdown">
+          <NavLink >
             Realisation
           </NavLink>
+          
+          <div className="dropdown-content">
+          <NavLink to={"/immeuble"}>Immeuble</NavLink>
+            <NavLink to={"/maison"}>Maison</NavLink>
+            <NavLink to={"/appartement"}>Appartement</NavLink>
+          </div>
+          </div>
         {/* <button className="btn">Get started</button> */}
       </nav>
 
@@ -51,21 +60,22 @@ const Nav = () => {
             Services <i className="fa-sharp fa-solid fa-chevron-down icon"></i>
           </NavLink>
                 <div className="dropdown-content">
-                  {/* <a href="#">Call Center Service</a>
-                  <a href="#">Marketing Service</a>
-                  <a href="#">Digitalization</a>
-                  <a href="#">It Solution</a>
-                  <a href="#">Recruitment and Placement</a> */}
-             
-         
             <NavLink to={"/callcenter"}>Travaux Public</NavLink>
             <NavLink to={"/marketig"}>Batimen</NavLink>
             <NavLink to={"/digital"}>Matériel routier</NavLink>
             <NavLink to={"/recruitment"}>Fondation</NavLink>
       
-        <NavLink to={"/realisation"}>
+            <div className="dropdown">
+          <NavLink >
             Realisation
           </NavLink>
+          
+          <div className="dropdown-content">
+          <NavLink to={"/immeuble"}>Immeuble</NavLink>
+            <NavLink to={"/maison"}>Maison</NavLink>
+            <NavLink to={"/appartement"}>Appartement</NavLink>
+          </div>
+          </div>
           
       
       

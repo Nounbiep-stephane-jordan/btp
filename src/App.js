@@ -13,8 +13,44 @@ import Marketing from "./containers/services/marketing/marketing";
 import Realisation from "./containers/realisation/realisation";
 import Proposal from "./component/contact/proposal";
 import RealisationGallery from "./containers/realisation/realisationGallery";
+import im1 from "../../assets/images/immeuble1.jpg"
+import im2 from "../../assets/images/immeuble2.jpg"
+import im3 from "../../assets/images/immeuble3.jpg"
+import ma1 from "../../assets/images/maison1.jpg"
+import ma2 from "../../assets/images/maison2.jpg"
+import ma3 from "../../assets/images/maison3.jpg"
+import ap1 from "../../assets/images/appartement1.jpg"
+import ap2 from "../../assets/images/appartement2.jpg"
+import ap3 from "../../assets/images/appartement3.jpg"
+
+
 
 function App() {
+  const Immeuble = [
+  {src:im1,subheading:"Immeuble 2 etage",
+  text:"Many companies operating in developing countries such as Cameroon still use paper archiving of important information."},
+  {src:im2,subheading:"Immeuble 3 etage",
+  text:"Many companies operating in developing countries such as Cameroon still use paper archiving of important information."},
+  {src:im3,subheading:"Immeuble 4 etage",
+  text:"Many companies operating in developing countries such as Cameroon still use paper archiving of important information."},
+];
+
+  const Maison = [
+  {src:ma1,subheading:"Une belle Maison",
+  text:"Many companies operating in developing countries such as Cameroon still use paper archiving of important information."},
+  {src:ma2,
+  subheading:"Maison 2 etage",
+  text:"Many companies operating in developing countries such as Cameroon still use paper archiving of important information."},
+  {src:ma3,subheading:"Maison 3 etage",
+  text:"Many companies operating in developing countries such as Cameroon still use paper archiving of important information."}];
+  
+  const Appartement = [
+  {src:ap1,subheading:"Appartment meubler",
+  text:"Many companies operating in developing countries such as Cameroon still use paper archiving of important information."},
+  {src:ap2,subheading:"Appartement 2 etage",
+  text:"Many companies operating in developing countries such as Cameroon still use paper archiving of important information."},
+  {src:ap3,subheading:"Belle appartement",
+  text:"Many companies operating in developing countries such as Cameroon still use paper archiving of important information."}];
   return (
     <div className="App">
       <BrowserRouter>
@@ -29,10 +65,10 @@ function App() {
           <Route path="/recruitment" element={<CallCenter />} />
           <Route path="/marketig" element={<Marketing />} />
           <Route path="/contact" element={<Contact />} />
-          <Route path="/realisation" element={<Realisation />} />
-          {/* <Route path="/immeuble" element={<RealisationGallery images={Immeuble}  />} />
-          <Route path="/appartement" element={<RealisationGallery images={Appartement}  />} />
-          <Route path="/maison" element={<RealisationGallery images={Maison}  />} /> */}
+          {/* <Route path="/realisation" element={<Realisation />} /> */}
+          <Route path="/immeuble" element={<RealisationGallery heading={"Immeuble"} images={Immeuble}  />} />
+          <Route path="/appartement" element={<RealisationGallery heading={"Appartement"}  images={Appartement}  />} />
+          <Route path="/maison" element={<RealisationGallery heading={"Maison"}  images={Maison}  />} />
           <Route path="/proposal" element={<Proposal />} />
         </Routes>
         <Footer />
