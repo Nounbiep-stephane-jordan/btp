@@ -13,16 +13,7 @@ import Marketing from "./containers/services/marketing/marketing";
 import Realisation from "./containers/realisation/realisation";
 import Proposal from "./component/contact/proposal";
 import RealisationGallery from "./containers/realisation/realisationGallery";
-import im1 from "../../assets/images/immeuble1.jpg"
-import im2 from "../../assets/images/immeuble2.jpg"
-import im3 from "../../assets/images/immeuble3.jpg"
-import ma1 from "../../assets/images/maison1.jpg"
-import ma2 from "../../assets/images/maison2.jpg"
-import ma3 from "../../assets/images/maison3.jpg"
-import ap1 from "../../assets/images/appartement1.jpg"
-import ap2 from "../../assets/images/appartement2.jpg"
-import ap3 from "../../assets/images/appartement3.jpg"
-
+import { im1,im2,im3,ap1,ap2,ap3,ma1,ma2,ma3 } from "./assets";
 
 
 function App() {

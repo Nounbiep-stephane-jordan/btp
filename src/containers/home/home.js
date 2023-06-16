@@ -109,7 +109,7 @@ const Home = () => {
               DIC ENGINEERING réalise un bon nombre de prestation, dans les domaine 
               de l'ingénierie du batiment et des travaux public.
             </p>
-            <button className="btn white-btn-color">
+            <button className="btn" id="white-btn-color">
 <NavLink to={"/services"}>
 Services
   </NavLink>
@@ -246,7 +246,7 @@ Services
                 <span>Technicité :</span> 
               </li>
             </ul>
-            <button className="btn white-btn-color">
+            <button className="btn" id="white-btn-color">
             <NavLink to={"/services"}>
             Services
             </NavLink>

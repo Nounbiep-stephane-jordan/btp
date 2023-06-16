@@ -28,8 +28,8 @@ const Nav = () => {
         <NavLink to={"/contact"}>Contact</NavLink>
   
           <div className="dropdown">
-          <NavLink >
-            Realisation
+          <NavLink to={"#"}>
+            Realisation <i className="fa-sharp fa-solid fa-chevron-down icon"></i>
           </NavLink>
           
           <div className="dropdown-content">
@@ -66,8 +66,8 @@ const Nav = () => {
             <NavLink to={"/recruitment"}>Fondation</NavLink>
       
             <div className="dropdown">
-          <NavLink >
-            Realisation
+          <NavLink to={"#"}>
+            Realisation <i className="fa-sharp fa-solid fa-chevron-down icon"></i>
           </NavLink>
           
           <div className="dropdown-content">

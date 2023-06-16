@@ -1,6 +1,6 @@
 import React from 'react'
 import Slider from "react-slick";
-import motion from "framer-motion"
+import {motion} from "framer-motion"
 
 const RealisationGallery = ({heading,text,images}) => {
   const settings = {
@@ -24,9 +24,12 @@ const RealisationGallery = ({heading,text,images}) => {
       <h1>
         Realisation <span>{heading}</span>
       </h1>
-      {images.map((img,indexs)=>(
-      <div className="row grid" key={indexs}>
-        <motion.div whileInView={{ x: [-500, 0] }} className="left">
+      
+        <Slider {...settings}>
+           {images.map((img,indexs)=>(
+      <div className="row grid" id="slider-id" key={indexs}>
+        
+        <motion.div animate={{ x: [-500, 0] }} className="left">
           <h2>{img.subheading}</h2>
           <ul>
             <li>
@@ -36,16 +39,14 @@ const RealisationGallery = ({heading,text,images}) => {
           <button className="btn">Prise de contact</button>
         </motion.div>
         <div className="right">
-        <Slider {...settings}>
-     
-               <div>
+               <div id="slider-img-right">
                <img alt="" src={img.src} />
                 </div>
-        
-        </Slider>
-        </div>
-      </div>
+                </div>
+                </div>
        ))}
+        </Slider>
+       
     </section>
     
     </>
