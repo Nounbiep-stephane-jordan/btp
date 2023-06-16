@@ -21,8 +21,8 @@ const Realisation = () => {
       // transition={{ duration: 1.2 }}
       whileInView={{ opacity: [0, 1],y:[50,0]}}
       >
-        DIC ENGINEERING, spécialiste de l’accueil externalisé{" "}
-        <span>sur mesure</span>
+    DIC ENGINEERING, spécialiste de tout vos ouvrage en 
+            <span>BTP</span>
       </motion.h2>
     </div>
  

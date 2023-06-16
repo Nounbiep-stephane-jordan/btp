@@ -144,8 +144,8 @@ const Home = () => {
       </section>
       <section className="blue-section ">
         <motion.div
-          initial={{ x: 500, opacity: 0 }}
-          whileInView={{ x: [500, 0], opacity: [0, 1] }}
+          initial={{ x: 100, opacity: 0 }}
+          whileInView={{ x: [100, 0], opacity: [0, 1] }}
           className="box-row s_flex"
         >
           <div className="box">
@@ -291,7 +291,7 @@ const Home = () => {
       </section>
       <section className="all-activity-section">
       <div className="all-activity">
-      </div>
+      
       <h2>
             Activiter
           </h2>
@@ -307,7 +307,7 @@ const Home = () => {
               <p>{box.text}</p>
             </motion.div>)}
         </div>
-       
+        </div>
       </section>
       {/* <Contact /> */}
     </>
