@@ -1,10 +1,8 @@
 import React, { useState } from "react";
 
 import "./style.css";
-import homeImg from "../../assets/images/truc1.jpg";
 import image5 from "../../assets/images/image5.jpg";
 import blog from "../../assets/images/helmet.jpg";
-import Contact from "../../component/contact/contact";
 import { motion } from "framer-motion";
 const Home = () => {
   const [showaccordion, setShowAccordion] = useState(false);
