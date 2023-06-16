@@ -15,9 +15,6 @@ import Proposal from "./component/contact/proposal";
 import RealisationGallery from "./containers/realisation/realisationGallery";
 
 function App() {
-  const Immeuble = [];
-  const Appartement = [];
-  const Maison = [];
   return (
     <div className="App">
       <BrowserRouter>
@@ -33,9 +30,9 @@ function App() {
           <Route path="/marketig" element={<Marketing />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/realisation" element={<Realisation />} />
-          <Route path="/immeuble" element={<RealisationGallery images={Immeuble}  />} />
+          {/* <Route path="/immeuble" element={<RealisationGallery images={Immeuble}  />} />
           <Route path="/appartement" element={<RealisationGallery images={Appartement}  />} />
-          <Route path="/maison" element={<RealisationGallery images={Maison}  />} />
+          <Route path="/maison" element={<RealisationGallery images={Maison}  />} /> */}
           <Route path="/proposal" element={<Proposal />} />
         </Routes>
         <Footer />

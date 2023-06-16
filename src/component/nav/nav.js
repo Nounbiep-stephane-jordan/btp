@@ -11,7 +11,7 @@ const Nav = () => {
         <div className="logo-box">
           <img src={logo} alt="some" />
         </div>
-        <Link to={"/"}>Home</Link>
+        <Link to={"/"}>Accueil</Link>
         <div className="dropdown">
           <Link to={"/services"}>
             Services <i className="fa-sharp fa-solid fa-chevron-down icon"></i>
@@ -24,21 +24,11 @@ const Nav = () => {
             <Link to={"/recruitment"}>Fondation</Link>
           </div>
         </div>
-        <Link to={"/about"}>About</Link>
+        <Link to={"/about"}>A propos</Link>
         <Link to={"/contact"}>Contact</Link>
-        <div className="dropdown">
         <Link to={"/realisation"}>
             Realisation
           </Link>
-          
-          <div className="dropdown-content">
-          <div className="dropdown-content">
-          <Link to={"/immeuble"}>Immeuble</Link>
-            <Link to={"/appartement"}>Appartement Meuble</Link>
-            <Link to={"/maison"}>Maison</Link>
-          </div>
-          </div>
-        </div>
         <button className="btn">Get started</button>
       </nav>
 
@@ -55,7 +45,7 @@ const Nav = () => {
         {showmenu ? (
           <>
             <div className="small-menu-content">
-              <a href="">Home</a>
+              <a href="/">Accueil</a>
               <div className="dropdown">
                 <a href="">
                   Services{" "}
@@ -73,20 +63,16 @@ const Nav = () => {
             <Link to={"/marketig"}>Batimen</Link>
             <Link to={"/digital"}>Matériel routier</Link>
             <Link to={"/recruitment"}>Fondation</Link>
-            <div className="dropdown">
+      
         <Link to={"/realisation"}>
             Realisation
           </Link>
           
-          <div className="dropdown-content">
-          <Link to={"/immeuble"}>Immeuble</Link>
-            <Link to={"/appartement"}>Appartement Meuble</Link>
-            <Link to={"/maison"}>Maison</Link>
-          </div>
-        </div>
+      
+      
                 </div>
               </div>
-              <a href="">About</a>
+              <a href="">A propos</a>
               <a href="">Contact</a>
             </div>
           </>

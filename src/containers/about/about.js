@@ -41,7 +41,7 @@ const About = () => {
           </div>
         </div>
       </section>
-      <section className="blue-section blue-about">
+      {/* <section className="blue-section blue-about">
         <h1>Quoi ?</h1>
         <motion.div
           whileInView={{ y: [-100, 0], opacity: [0, 1] }}
@@ -61,7 +61,7 @@ const About = () => {
             téléphonique, help desk, pharmacovigilance, gestion d’agendas.
           </p>
         </motion.div>
-      </section>
+      </section> */}
 
       <section className="white">
         <div className="grid">

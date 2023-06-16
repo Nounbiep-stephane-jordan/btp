@@ -1,11 +1,21 @@
 import React from 'react'
 import image1 from "../../assets/images/site.jpg"
-import image2 from "../../assets/images/image3.jpg"
-import image3 from "../../assets/images/building.jpg"
-import image4 from "../../assets/images/helmet.jpg"
+import im1 from "../../assets/images/immeuble1.jpg"
+import im2 from "../../assets/images/immeuble2.jpg"
+import im3 from "../../assets/images/immeuble3.jpg"
+import ma1 from "../../assets/images/maison1.jpg"
+import ma2 from "../../assets/images/maison2.jpg"
+import ma3 from "../../assets/images/maison3.jpg"
+import ap1 from "../../assets/images/appartement1.jpg"
+import ap2 from "../../assets/images/appartement2.jpg"
+import ap3 from "../../assets/images/appartement3.jpg"
 import { motion } from "framer-motion";
 import "./realisation.css"
+import RealisationGallery from './realisationGallery'
 const Realisation = () => {
+  const Immeuble = [{src:im1},{src:im2},{src:im3}];
+  const Maison = [{src:ma1},{src:ma2},{src:ma3}];
+  const Appartement = [{src:ap1},{src:ap2},{src:ap3}];
   return (
 <>
 
@@ -27,28 +37,10 @@ const Realisation = () => {
     </div>
  
   </motion.section>
-    <div class="realisation-row">
-  <div className='realisation-card'>
-  <img alt="" src={image1} />
-  </div>
-
-  <div className='realisation-card'>
-  <img alt="" src={image2} />
-  </div>
-
-  <div className='realisation-card'>
-  <img alt="" src={image2} />
-  </div>
-
-  <div className='realisation-card'>
-  <img alt="" src={image3} />
-  </div>
-
-  <div className='realisation-card'>
-  <img alt="" src={image4} />
-  </div>
-   
-
+  <div class="realisation-row">
+ <RealisationGallery heading={"Immeuble"} images={Immeuble}/>
+ <RealisationGallery heading={"Appartement"} images={Appartement}/>
+ <RealisationGallery heading={"Maison"} images={Maison}/>
 </div>
 </>
   )
