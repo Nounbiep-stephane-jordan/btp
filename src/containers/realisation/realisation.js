@@ -28,7 +28,6 @@ const Realisation = () => {
     <div className="left c_flex">
       <motion.h2
       initial={{ opacity: 0, y:50 }}
-      // transition={{ duration: 1.2 }}
       whileInView={{ opacity: [0, 1],y:[50,0]}}
       >
     DIC ENGINEERING, spécialiste de tout vos ouvrage en 
