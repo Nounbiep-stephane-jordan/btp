@@ -15,7 +15,7 @@ const Footer = () => {
             <i className="fa-solid fa-envelope"></i> contact@ENGINEERING.fr
           </p>
         </div>
-        <div className="box links">
+        {/* <div className="box links">
           <p>
             <a href="#">Accueil</a>
           </p>
@@ -25,7 +25,7 @@ const Footer = () => {
           <p>
             <a>Service</a>
           </p>
-        </div>
+        </div> */}
         <div className="links box">
           <h4>Services</h4>
           <p>Travaux Public</p>

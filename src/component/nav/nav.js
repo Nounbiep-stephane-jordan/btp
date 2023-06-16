@@ -19,7 +19,7 @@ const Nav = () => {
           
           <div className="dropdown-content">
           <Link to={"/callcenter"}>Travaux Public</Link>
-            <Link to={"/marketig"}>Batimen</Link>
+            <Link to={"/marketig"}>Batiment</Link>
             <Link to={"/digital"}>Matériel routier</Link>
             <Link to={"/recruitment"}>Fondation</Link>
           </div>
@@ -45,12 +45,11 @@ const Nav = () => {
         {showmenu ? (
           <>
             <div className="small-menu-content">
-              <a href="/">Accueil</a>
+            <Link to={"/"}>Accueil</Link>
               <div className="dropdown">
-                <a href="">
-                  Services{" "}
-                  <i className="fa-sharp fa-solid fa-chevron-down icon"></i>
-                </a>
+              <Link to={"/services"}>
+            Services <i className="fa-sharp fa-solid fa-chevron-down icon"></i>
+          </Link>
                 <div className="dropdown-content">
                   {/* <a href="#">Call Center Service</a>
                   <a href="#">Marketing Service</a>

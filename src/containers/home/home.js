@@ -109,7 +109,11 @@ const Home = () => {
               DIC ENGINEERING réalise un bon nombre de prestation, dans les domaine 
               de l'ingénierie du batiment et des travaux public.
             </p>
-            <button className="btn ">Nos Services</button>
+            <button className="btn ">
+<Link to={"/services"}>
+Services
+  </Link>
+            </button>
           </div>
           <div className="white-right">
             <div className="accordion s_flex">
@@ -242,43 +246,14 @@ const Home = () => {
                 <span>Technicité :</span> 
               </li>
             </ul>
-
-            <button className="btn">Nos services</button>
+            <button className="btn ">
+            <Link to={"/services"}>
+            Services
+            </Link>
+            </button>
           </div>
           <div className="right">
             <img alt="" src={image5} />
-           
-          {/* <div className="f_flex">
-            <motion.div 
-            initial={{ opacity: 0 }}
-            transition={{ duration: 1,ease:"easeInOut",delay:0.3 }}
-            whileInView={{ opacity: [0, 1],scale:[2,1]}}
-            className="img-i">
-              <i className="fa-solid fa-users"></i>
-            </motion.div>
-            <p>L'esprit de service</p>
-          </div>
-          <div className="f_flex">
-            <motion.div 
-              initial={{ opacity: 0 }}
-              transition={{ duration: 1,delay:1,ease:"easeInOut" }}
-              whileInView={{ opacity: [0, 1],scale:[2,1]}}
-            className="img-i">
-              <i className="fa-solid fa-smile"></i>
-            </motion.div>
-            <p>L'esprit de service</p>
-          </div>
-          <div className="f_flex">
-            <motion.div 
-            initial={{ opacity: 0 }}
-              transition={{ duration: 1,delay:1.6 ,ease:"easeInOut"}}
-              whileInView={{ opacity: [0, 1],scale:[2,1]}}
-            
-            className="img-i">
-              <i className="fa-solid fa-laptop"></i>
-            </motion.div>
-            <p>L'esprit de service</p>
-          </div> */}
           </div>
         </div>
         <motion.div

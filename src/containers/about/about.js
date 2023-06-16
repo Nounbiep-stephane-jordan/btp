@@ -6,6 +6,7 @@ import about2 from "../../assets/images/image1.jpg";
 import about3 from "../../assets/images/image1.jpg";
 import Contact from "../../component/contact/contact";
 import { motion } from "framer-motion";
+import { Link } from "react-router-dom";
 
 const About = () => {
   return (
@@ -32,8 +33,16 @@ const About = () => {
               sur deux sites distants.
             </p>
             <div className="f_flex">
-              <button className="btn">Demander un devis</button>
-              <button className="btn">Nous contacter</button>
+            <button 
+            className="btn" id="btn-green"> <Link to={"/proposal"}>
+           Demander un devis
+          </Link></button> 
+          
+             
+            <button
+            className="btn"><Link to={"/contact"}>
+            contact
+          </Link></button>
             </div>
           </div>
           <div className="right">
