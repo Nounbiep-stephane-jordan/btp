@@ -1,3 +1,8 @@
+body #menu-a a.active {
+color:#4A61FF;
+border-bottom: 2px solid #4A61FF;
+width: fit-content;
+}
 
  nav {
     display: flex;

@@ -6,7 +6,7 @@ import about2 from "../../assets/images/image1.jpg";
 import about3 from "../../assets/images/image1.jpg";
 import Contact from "../../component/contact/contact";
 import { motion } from "framer-motion";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 const About = () => {
   return (
@@ -34,15 +34,15 @@ const About = () => {
             </p>
             <div className="f_flex">
             <button 
-            className="btn" id="btn-green"> <Link to={"/proposal"}>
+            className="btn" id="btn-green"> <NavLink to={"/proposal"}>
            Demander un devis
-          </Link></button> 
+          </NavLink></button> 
           
              
             <button
-            className="btn"><Link to={"/contact"}>
+            className="btn"><NavLink to={"/contact"}>
             contact
-          </Link></button>
+          </NavLink></button>
             </div>
           </div>
           <div className="right">

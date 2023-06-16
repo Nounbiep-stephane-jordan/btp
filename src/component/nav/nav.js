@@ -2,34 +2,34 @@ import React, { useState } from "react";
 
 import "./style.css";
 import logo from "../../assets/images/logo.png";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 const Nav = () => {
   const [showmenu, setShowmenu] = useState(false);
   return (
     <>
-      <nav className="big-menu">
+      <nav id="menu-a" className="big-menu">
         <div className="logo-box">
           <img src={logo} alt="some" />
         </div>
-        <Link to={"/"}>Accueil</Link>
+        <NavLink to={"/"}>Accueil</NavLink>
         <div className="dropdown">
-          <Link to={"/services"}>
+          <NavLink to={"/services"}>
             Services <i className="fa-sharp fa-solid fa-chevron-down icon"></i>
-          </Link>
+          </NavLink>
           
           <div className="dropdown-content">
-          <Link to={"/callcenter"}>Travaux Public</Link>
-            <Link to={"/marketig"}>Batiment</Link>
-            <Link to={"/digital"}>Matériel routier</Link>
-            <Link to={"/recruitment"}>Fondation</Link>
+          <NavLink to={"/callcenter"}>Travaux Public</NavLink>
+            <NavLink to={"/marketig"}>Batiment</NavLink>
+            <NavLink to={"/digital"}>Matériel routier</NavLink>
+            <NavLink to={"/recruitment"}>Fondation</NavLink>
           </div>
         </div>
-        <Link to={"/about"}>A propos</Link>
-        <Link to={"/contact"}>Contact</Link>
-        <Link to={"/realisation"}>
+        <NavLink to={"/about"}>A propos</NavLink>
+        <NavLink to={"/contact"}>Contact</NavLink>
+        <NavLink to={"/realisation"}>
             Realisation
-          </Link>
-        <button className="btn">Get started</button>
+          </NavLink>
+        {/* <button className="btn">Get started</button> */}
       </nav>
 
       <nav className="small-menu">
@@ -45,11 +45,11 @@ const Nav = () => {
         {showmenu ? (
           <>
             <div className="small-menu-content">
-            <Link to={"/"}>Accueil</Link>
+            <NavLink to={"/"}>Accueil</NavLink>
               <div className="dropdown">
-              <Link to={"/services"}>
+              <NavLink to={"/services"}>
             Services <i className="fa-sharp fa-solid fa-chevron-down icon"></i>
-          </Link>
+          </NavLink>
                 <div className="dropdown-content">
                   {/* <a href="#">Call Center Service</a>
                   <a href="#">Marketing Service</a>
@@ -58,21 +58,21 @@ const Nav = () => {
                   <a href="#">Recruitment and Placement</a> */}
              
          
-            <Link to={"/callcenter"}>Travaux Public</Link>
-            <Link to={"/marketig"}>Batimen</Link>
-            <Link to={"/digital"}>Matériel routier</Link>
-            <Link to={"/recruitment"}>Fondation</Link>
+            <NavLink to={"/callcenter"}>Travaux Public</NavLink>
+            <NavLink to={"/marketig"}>Batimen</NavLink>
+            <NavLink to={"/digital"}>Matériel routier</NavLink>
+            <NavLink to={"/recruitment"}>Fondation</NavLink>
       
-        <Link to={"/realisation"}>
+        <NavLink to={"/realisation"}>
             Realisation
-          </Link>
+          </NavLink>
           
       
       
                 </div>
               </div>
-              <a href="">A propos</a>
-              <a href="">Contact</a>
+        <NavLink to={"/about"}>A propos</NavLink>
+        <NavLink to={"/contact"}>Contact</NavLink>
             </div>
           </>
         ) : (

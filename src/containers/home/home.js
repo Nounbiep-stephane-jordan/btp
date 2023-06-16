@@ -4,7 +4,7 @@ import "./style.css";
 import image5 from "../../assets/images/image5.jpg";
 import blog from "../../assets/images/helmet.jpg";
 import { motion } from "framer-motion";
-import {Link} from "react-router-dom"
+import {NavLink} from "react-router-dom"
 const Home = () => {
   const [showaccordion, setShowAccordion] = useState(false);
   const allbox = [
@@ -41,18 +41,18 @@ const Home = () => {
             initial={{ opacity: 0, x:-30 }}
             transition={{ duration: 1,delay:0.5 }}
             whileInView={{ opacity: [0, 1],x:[-30,0]}}
-            className="btn" id="btn-green"> <Link to={"/proposal"}>
+            className="btn" id="btn-green"> <NavLink to={"/proposal"}>
            Demander un devis
-          </Link></motion.button> 
+          </NavLink></motion.button> 
           
              
             <motion.button
              initial={{ opacity: 0, x:-30 }}
              transition={{ duration: 1,delay:0.5}}
              whileInView={{ opacity: [0, 1],x:[-30,0]}}
-            className="btn"><Link to={"/contact"}>
+            className="btn"><NavLink to={"/contact"}>
             contact
-          </Link></motion.button>
+          </NavLink></motion.button>
           </div>
         </div>
         {/*
@@ -109,10 +109,10 @@ const Home = () => {
               DIC ENGINEERING réalise un bon nombre de prestation, dans les domaine 
               de l'ingénierie du batiment et des travaux public.
             </p>
-            <button className="btn ">
-<Link to={"/services"}>
+            <button className="btn white-btn-color">
+<NavLink to={"/services"}>
 Services
-  </Link>
+  </NavLink>
             </button>
           </div>
           <div className="white-right">
@@ -246,10 +246,10 @@ Services
                 <span>Technicité :</span> 
               </li>
             </ul>
-            <button className="btn ">
-            <Link to={"/services"}>
+            <button className="btn white-btn-color">
+            <NavLink to={"/services"}>
             Services
-            </Link>
+            </NavLink>
             </button>
           </div>
           <div className="right">
