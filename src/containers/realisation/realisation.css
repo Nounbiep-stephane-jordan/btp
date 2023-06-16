@@ -100,6 +100,15 @@
  align-items: center;
 }
 
+@media screen and(max-width:800px){
+   
+
+  .slick-slider .slick-arrow:first-child{
+    top: 15rem;
+    left: 20rem;
+  }
+}
+
 .slick-slider .slick-arrow:first-child{
   position: absolute !important;
   /* display: none !important; */
