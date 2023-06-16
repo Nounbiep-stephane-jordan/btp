@@ -29,7 +29,8 @@
 
 
  nav button {
-    background-color: #4A61FF;
+    /* background-color: #4A61FF; */
+    background-color:var(--main-color);
     color: white;
     width: 140px;
  }

@@ -11,8 +11,13 @@ import Digitalisation from "./containers/services/digitalization/digitalisation"
 import It from "./containers/services/it/it";
 import Marketing from "./containers/services/marketing/marketing";
 import Realisation from "./containers/realisation/realisation";
+import Proposal from "./component/contact/proposal";
+import RealisationGallery from "./containers/realisation/realisationGallery";
 
 function App() {
+  const Immeuble = [];
+  const Appartement = [];
+  const Maison = [];
   return (
     <div className="App">
       <BrowserRouter>
@@ -28,6 +33,10 @@ function App() {
           <Route path="/marketig" element={<Marketing />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/realisation" element={<Realisation />} />
+          <Route path="/immeuble" element={<RealisationGallery images={Immeuble}  />} />
+          <Route path="/appartement" element={<RealisationGallery images={Appartement}  />} />
+          <Route path="/maison" element={<RealisationGallery images={Maison}  />} />
+          <Route path="/proposal" element={<Proposal />} />
         </Routes>
         <Footer />
       </BrowserRouter>

@@ -1,6 +1,6 @@
 import React from 'react'
-import image1 from "../../assets/images/truc1.jpg"
-import image2 from "../../assets/images/truc2.jpg"
+import image1 from "../../assets/images/site.jpg"
+import image2 from "../../assets/images/image3.jpg"
 import image3 from "../../assets/images/building.jpg"
 import image4 from "../../assets/images/helmet.jpg"
 import { motion } from "framer-motion";

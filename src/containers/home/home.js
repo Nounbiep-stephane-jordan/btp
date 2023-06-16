@@ -4,6 +4,7 @@ import "./style.css";
 import image5 from "../../assets/images/image5.jpg";
 import blog from "../../assets/images/helmet.jpg";
 import { motion } from "framer-motion";
+import {Link} from "react-router-dom"
 const Home = () => {
   const [showaccordion, setShowAccordion] = useState(false);
   const allbox = [
@@ -24,27 +25,34 @@ const Home = () => {
           initial={{ opacity: 0, y:50 }}
           // transition={{ duration: 1.2 }}
           whileInView={{ opacity: [0, 1],y:[50,0]}}
+          className="h2-head"
           >
             DIC ENGINEERING, spécialiste de tout vos ouvrage en 
-            <span>BTP</span>
+            <span className="span-head"> BTP</span>
           </motion.h2>
           <motion.h3
           initial={{ opacity: 0, y:30 }}
           transition={{ duration: 1,delay:1 }}
           whileInView={{ opacity: [0, 1],y:[30,0]}}
+          className="h3-head"
           >Opérationnel 24/7</motion.h3>
           <div className="btn-box ">
-            {/* <motion.button 
+            <motion.button 
             initial={{ opacity: 0, x:-30 }}
             transition={{ duration: 1,delay:0.5 }}
             whileInView={{ opacity: [0, 1],x:[-30,0]}}
-            className="btn">Demander un devis</motion.button> */}
-            {/* rredirect to contact */}
+            className="btn" id="btn-green"> <Link to={"/proposal"}>
+           Demander un devis
+          </Link></motion.button> 
+          
+             
             <motion.button
              initial={{ opacity: 0, x:-30 }}
              transition={{ duration: 1,delay:0.5}}
              whileInView={{ opacity: [0, 1],x:[-30,0]}}
-            className="btn">Nous contacter</motion.button>
+            className="btn"><Link to={"/contact"}>
+            contact
+          </Link></motion.button>
           </div>
         </div>
         {/*
@@ -193,7 +201,7 @@ const Home = () => {
           <img alt="blog" src={blog} />
         </div>
         <div className="right">
-          <h2>Tout savoir sur nos procedure d'execution !</h2>
+          <h2 className="blue-section-h2">Tout savoir sur nos procedure d'execution !</h2>
           <p>
             Depuis les années 1990, les organisations choisissent de
             sous-traiter certaines fonctions périphériques de leur activité afin
