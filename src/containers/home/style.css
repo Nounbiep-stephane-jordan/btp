@@ -437,8 +437,7 @@ border-radius: 100px 0 100px;
   .all-activity{
   background-image: url("../../assets/images/image3.jpg");
   width:100%;
-  /* filter: blur(8px); */
-  height: 800px;
+  height: 500px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
