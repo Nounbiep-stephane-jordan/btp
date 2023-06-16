@@ -100,14 +100,7 @@
  align-items: center;
 }
 
-@media screen and(max-width:800px){
-   
-
-  .slick-slider .slick-arrow:first-child{
-    top: 15rem;
-    left: 20rem;
-  }
-}
+ 
 
 .slick-slider .slick-arrow:first-child{
   position: absolute !important;
@@ -130,4 +123,19 @@
  .slick-slider img{
   border-radius: 100px 0 100px 0 !important;
  }
+
+ @media screen and(max-width:800px){
+   
+
+  .slick-slider .slick-arrow:first-child{
+    top: 15rem;
+    left: 20rem;
+  }
+
+  .slick-slider .slick-arrow{
+  top:15rem;
+  left:15rem;
+}
+
+}
  
