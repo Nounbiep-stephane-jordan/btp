@@ -12,7 +12,7 @@ const RealisationGallery = ({heading,text,images}) => {
   };
 
   const settings2 ={
-    dots: true,
+    dots:false,
     infinite: true,
     speed: 500,
     slidesToShow: 1,
@@ -28,7 +28,7 @@ const RealisationGallery = ({heading,text,images}) => {
     <>
  
 <section className="services" id="slider-services">
-      <h1>
+      <h1 className='h1-slider'>
         Realisation <span>{heading}</span>
       </h1>
       
