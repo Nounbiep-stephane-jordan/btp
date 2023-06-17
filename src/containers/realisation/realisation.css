@@ -82,6 +82,15 @@
 
   body .slick-slider #slider-id {
     display: grid !important;
+    margin:0 !important;
+  }
+
+  body .slick-slider #slider-id h2 {
+    margin:0 !important;
+  }
+
+  body #slider-services h1 {
+    margin:0.5rem 4rem !important;
   }
 
   .slick-slider{
@@ -139,3 +148,8 @@
 
 }
  
+
+.slick-slider .slick-dots li.slick-active::before {
+  color: var(--light-color) !important;
+  width: 10px;
+}

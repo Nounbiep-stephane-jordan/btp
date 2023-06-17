@@ -36,7 +36,7 @@ function App() {
   text:"Many companies operating in developing countries such as Cameroon still use paper archiving of important information."}];
   
   const Appartement = [
-  {src:ap1,subheading:"Appartment meubler",
+  {src:ap1,subheading:"Appartment meuble",
   text:"Many companies operating in developing countries such as Cameroon still use paper archiving of important information."},
   {src:ap2,subheading:"Appartement 2 etage",
   text:"Many companies operating in developing countries such as Cameroon still use paper archiving of important information."},

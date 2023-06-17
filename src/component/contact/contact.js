@@ -23,9 +23,6 @@ const Contact = () => {
           <i className="fa-solid fa-envelope"></i> support@DIC ENGINEERINGcompagnie.fr
         </p>
         <h4>Planifier un rendez-vous téléphonique </h4> */}
-        <button className="btn">
-          <i className="fa-solid fa-calendar"></i> Prendre rendez-vous
-        </button>
         <h4>Devis</h4>
         <button className="btn">
           <i className="fa-solid fa-calendar"></i> Demander un devis
