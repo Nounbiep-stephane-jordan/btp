@@ -1,3 +1,7 @@
 .proposal-section img {
     border-radius:100px 0 100px 0;
 }
+
+.proposal-section textarea{
+    height: 180px;
+}

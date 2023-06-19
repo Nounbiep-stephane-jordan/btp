@@ -167,3 +167,34 @@
       margin-right:0;
     }
    }
+
+
+   footer a{
+    text-decoration: none;
+   }
+
+   /* .footer-p{
+    padding:0 2rem;
+   } */
+
+   .footer-copy{
+    align-items: center;
+   }
+
+   footer .top-btn{
+    background-color: var(--main-color);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    height: 50px;
+    width: 50px;
+    border-radius: 100px;
+   }
+
+   footer .top-btn i{
+    color:white !important;
+    align-self: center;
+    margin: 0;
+   }

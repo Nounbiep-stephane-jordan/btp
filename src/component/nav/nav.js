@@ -2,7 +2,7 @@ import React, { useState } from "react";
 
 import "./style.css";
 import logo from "../../assets/images/logo.png";
-import { NavLink } from "react-router-dom";
+import { NavLink,Link } from "react-router-dom";
 const Nav = () => {
   const [showmenu, setShowmenu] = useState(false);
   return (
@@ -28,9 +28,9 @@ const Nav = () => {
         <NavLink to={"/contact"}>Contact</NavLink>
   
           <div className="dropdown">
-          <NavLink to={"#"}>
+          <Link>
             Realisation <i className="fa-sharp fa-solid fa-chevron-down icon"></i>
-          </NavLink>
+          </Link>
           
           <div className="dropdown-content">
           <NavLink to={"/immeuble"}>Immeuble</NavLink>
@@ -66,9 +66,9 @@ const Nav = () => {
             <NavLink to={"/recruitment"}>Fondation</NavLink>
       
             <div className="dropdown">
-          <NavLink to={"#"}>
+          <Link>
             Realisation <i className="fa-sharp fa-solid fa-chevron-down icon"></i>
-          </NavLink>
+          </Link>
           
           <div className="dropdown-content">
           <NavLink to={"/immeuble"}>Immeuble</NavLink>

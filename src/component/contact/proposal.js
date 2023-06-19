@@ -21,7 +21,7 @@ const Proposal = () => {
       <form>
           <input type="text" placeholder="Address mail" />
           <input type="text" placeholder="ObjetS" />
-          <textarea type="text" col="5" row="5" placeholder="Description">
+          <textarea type="text" col="50" row="50" placeholder="Description">
           </textarea>
         <button className="btn">Envoyer</button>
       </form>

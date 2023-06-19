@@ -35,7 +35,11 @@ const Footer = () => {
           
         </div>
       </div>
-    </footer>
+      <div className="footer-row footer-copy">
+      <p className="footer-p">&copy; Tous Droits réservés par  <a href="https://cybexai.com/">CybexAi</a></p>
+      <a className="top-btn" href="#"><i className="fa-sharp fa-solid fa-chevron-up icon"></i></a>
+      </div>
+       </footer>
   );
 };
 

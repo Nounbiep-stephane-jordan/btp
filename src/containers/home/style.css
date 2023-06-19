@@ -533,6 +533,7 @@ border-radius: 100px 0 100px;
     color:#122A66;
   }
 
-  section #white-btn-color {
+  section #white-btn-color a{
     color:white !important;
+    text-decoration: none;
   }
