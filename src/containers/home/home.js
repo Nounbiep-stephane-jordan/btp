@@ -5,13 +5,16 @@ import image5 from "../../assets/images/image5.jpg";
 import blog from "../../assets/images/helmet.jpg";
 import { motion } from "framer-motion";
 import {NavLink} from "react-router-dom"
+import { activiter1,activiter2,activiter3,activiter4 } from "../../assets/index";
+
 const Home = () => {
   const [showaccordion, setShowAccordion] = useState(false);
   const allbox = [
-  {head:"Travaux Public",text:"1er acteur indépendant au cameroon",delay:1},
-  {text:"4e acteur du bâtiment en cameroon ",head:"Batiment",delay:1.5},
-  {text:"Leader mondial du matériel routier.",head:"Matériel routier",delay:1.8},
-  {text:"Experts en fondations",head:"Fondation",delay:2}]
+  {head:"Batiment",text:"Contsruction",delay:1,img:activiter1},
+  {text:"Batiment en construction",head:"Batiment",delay:1.5,img:activiter2},
+  {text:"Sharpante en construction.",head:"Sharpante",delay:1.8,img:activiter3},
+  {text:"Experts en fondations",head:"Fondation",delay:2,img:activiter4}]
+
   return (
     <>
       <motion.section
@@ -274,7 +277,7 @@ Services
       <div className="all-activity">
       
       <h2>
-            Activiter
+            Projet encours
           </h2>
         <div className="all-box-activity">
           {/* change the background image */}
@@ -284,6 +287,7 @@ Services
             transition={{delay:box.delay,ease:"easeInOut",duration:1.4}}
             whileInView={{ y: [100, 0], opacity: [0, 1] }}
             key={index}>
+              <img  src={box.img} alt=""/>
               <h3>{box.head}</h3>
               <p>{box.text}</p>
             </motion.div>)}
